@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>لعبة الذرة - تأثيرات واقعية</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="atom-container">
+        <!-- النواة -->
+        <div class="nucleus" id="nucleus"></div>
+        
+        <!-- مدارات الطاقة -->
+        <div class="orbit-path" id="orbit1" style="width: 200px; height: 200px;"></div>
+        <div class="orbit-path" id="orbit2" style="width: 300px; height: 300px;"></div>
+        <div class="orbit-path" id="orbit3" style="width: 400px; height: 400px;"></div>
+        <div class="orbit-path" id="orbit4" style="width: 500px; height: 500px;"></div>
+        
+        <!-- الإلكترونات -->
+        <div class="electron" id="electron1" data-level="1" data-angle="0"></div>
+        <div class="electron" id="electron2" data-level="2" data-angle="1.5"></div>
+        <div class="electron" id="electron3" data-level="3" data-angle="3"></div>
+        <div class="electron" id="electron4" data-level="4" data-angle="4.5"></div>
+    </div>
+    
+    <div id="info">المس بالقرب من أي إلكترون لنقل الطاقة إليه</div>
+    <div id="energy-indicator">الطاقة: 0%</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
